@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2 Player Dice Game</title>
+  <style>
+    button { padding: 10px 20px; margin: 10px; }
+    button:disabled { background-color: #ccc; }
+  </style>
+</head>
+<body>
+  <h1>2 Player Dice Game</h1>
+  
+  <!-- Toss Section -->
+  <p id="toss-result"></p>
+  <button id="toss-btn">Toss</button>
+
+  <!-- Game Section -->
+  <div id="game-section" style="display: none;">
+    <p id="dice-result"></p>
+    <button id="player1-btn" disabled>Player 1</button>
+    <button id="player2-btn" disabled>Player 2</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
